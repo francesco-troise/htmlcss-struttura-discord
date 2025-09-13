@@ -1,0 +1,50 @@
+/*GLOBAL RULES*/
+
+* {
+  margin: 0;
+  padding: 3px; /*this padding is for a better view*/
+  box-sizing: border-box;
+}
+
+/* END GLOBAL RULES*/
+
+/*DEBUG*/
+
+.debug {
+  color: transparent-X; /*Enable this command to make 
+                        the contents invisible*/
+}
+
+.debug header {
+  background-color: red;
+}
+
+.debug section {
+  border: 1px dashed black;
+  background-color: yellow;
+}
+
+.debug section * {
+  background-color: white;
+  border: 1px dashed black; /* include ":not(nav)" 
+                                 for a transparent nav Bg */
+}
+
+.debug main {
+  height: 500px;
+  background-color: yellowgreen;
+}
+
+/* END DEBUG*/
+
+/*HEADER SECTION*/
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
