@@ -28,6 +28,8 @@
   background-color: white;
   border: 1px dashed black; /* include ":not(nav)" 
                                  for a transparent nav Bg */
+                              /* include ":not(.btn-top-main)"
+                                 for a trasparent <section class="btn-top-main"> Bg */
 }
 
 .debug main {
@@ -50,3 +52,38 @@ nav {
 }
 
 /*END HEADER SECTION*/
+
+/*MAIN SECTION*/
+
+.top-main-container{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+p{
+    margin: 0 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+.middle-main-container{
+    display: flex;
+   
+}
+
+.prima-img{
+    width: 10rem;
+    height: 7rem;
+}
+
+
+/* END MAIN SECTION*/
+
+.prova{
+    margin: 1.5rem;
+}
