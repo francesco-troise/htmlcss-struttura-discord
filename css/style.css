@@ -24,18 +24,18 @@
   background-color: yellow;
 }
 
-.debug section *:not(.generic-container-top) {
+.debug section *:not(.generic-container-mid) {
   background-color: white;
   border: 1px dashed black; /* include ":not(nav)" 
                                  for a transparent nav Bg */
                               /* include ":not(.btn-top-main)"
                                  for a trasparent <section class="btn-top-main"> Bg */
-                              /* remove " :not(.generic-container-top) " to hide 
-                                 background color of the generic-container-top */
+                              /* remove " :not(.generic-container-mid) " to hide 
+                                 Bg color of the generic-container-top */
 }
 
 .debug main {
-  height: 1000px;
+  height: 65rem;
   background-color: yellowgreen;
 }
 
@@ -62,7 +62,6 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 
@@ -73,32 +72,49 @@ nav {
     margin-bottom: 0.7rem;
 }
 
+
+
+
 .middle-main-container{
     display: flex;
     justify-content: center;
-    
-   
+    margin-left: 3rem;
+    margin-right: 3rem;
+
 }
 
 .img-middle-main{
     width: 10rem;
     height: 7rem;
+    margin-top: 6.5rem;
     margin-right: 3rem;
 
 }
 
-.generic-container-top{
+.generic-container-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: gainsboro;
     margin: 1.5rem;
-    
-    
-
-    
 }
+
+#title-middle-main{
+    width: 7rem;
+}
+
+.middle-main-p{
+    width: 15.6rem;
+    margin: 1.5rem;
+}
+
+.second-middle-main-container{
+    margin: 3rem;
+
+
+}
+
 
 
 /* END MAIN SECTION*/
 
-.middle-main-p{
-    margin: 1.5rem;
-}
