@@ -24,16 +24,18 @@
   background-color: yellow;
 }
 
-.debug section * {
+.debug section *:not(.generic-container-top) {
   background-color: white;
   border: 1px dashed black; /* include ":not(nav)" 
                                  for a transparent nav Bg */
                               /* include ":not(.btn-top-main)"
                                  for a trasparent <section class="btn-top-main"> Bg */
+                              /* remove " :not(.generic-container-top) " to hide 
+                                 background color of the generic-container-top */
 }
 
 .debug main {
-  height: 500px;
+  height: 1000px;
   background-color: yellowgreen;
 }
 
@@ -65,7 +67,7 @@ nav {
 
 
 
-p{
+.top-main-p{
     margin: 0 2rem;
     margin-top: 2rem;
     margin-bottom: 0.7rem;
@@ -73,17 +75,30 @@ p{
 
 .middle-main-container{
     display: flex;
+    justify-content: center;
+    
    
 }
 
-.prima-img{
+.img-middle-main{
     width: 10rem;
     height: 7rem;
+    margin-right: 3rem;
+
+}
+
+.generic-container-top{
+    background-color: gainsboro;
+    margin: 1.5rem;
+    
+    
+
+    
 }
 
 
 /* END MAIN SECTION*/
 
-.prova{
+.middle-main-p{
     margin: 1.5rem;
 }
