@@ -11,7 +11,7 @@
 /*DEBUG*/
 
 .debug {
-  color: transparent-X; /*Enable this command to make 
+  color: transparent; /*Enable this command to make 
                         the contents invisible*/
 }
 
@@ -114,9 +114,8 @@ nav {
 .second-middle-main-container{
     display: flex;
     margin: 3rem;
-    align-items;
-
-
+    justify-content: center;
+    align-items: center;
 }
 
 .generic-second-container-mid{
