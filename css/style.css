@@ -24,20 +24,23 @@
   background-color: yellow;
 }
 
-.debug section *:not(.generic-container-mid, .generic-second-container-mid ) {
+.debug section *:not(.module-principal-container, .module-alternative) {
   background-color: white;
   border: 1px dashed black; /* include ":not(nav)" 
                                  for a transparent nav Bg */
-                              /* include ":not(.btn-top-main)"
+
+                              /* include ":not(.btn-primary-container)"
                                  for a trasparent <section class="btn-top-main"> Bg */
-                              /* remove " :not(.generic-container-mid) " to hide 
-                                 Bg color of the generic-container-top */
-                              /* remove " :not(.generic-second-container-mid) " to hide 
-                                 Bg color of the generic-container-top */
+
+                              /* remove " :not(.module-principal-container) " to hide 
+                                 Bg color of the module-principal-container */
+
+                              /* remove " :not(.module-alternative) " to hide 
+                                 Bg color of the .module-alternative */
 }
 
 .debug main {
-  height: 65rem;
+  height: 90rem;
   background-color: yellowgreen;
 }
 
@@ -59,7 +62,7 @@ nav {
 
 /*MAIN SECTION*/
 
-.top-main-container{
+.primary-container{
     margin: 3rem;
     display: flex;
     flex-direction: column;
@@ -68,7 +71,7 @@ nav {
 
 
 
-.top-main-p{
+.primary-container-p{
     margin: 0 2rem;
     margin-top: 2rem;
     margin-bottom: 0.7rem;
@@ -77,7 +80,7 @@ nav {
 
 
 
-.middle-main-container{
+.principal-container{
     display: flex;
     justify-content: center;
     margin-left: 3rem;
@@ -94,34 +97,35 @@ nav {
 
 }
 
-.generic-container-mid{
+.module-principal-container{
     display: flex;
     flex-direction: column;
     background-color: gainsboro;
     margin: 1.5rem;
 }
 
-#title-generic-container-mid{
+#title-module{
     width: 10rem;
 }
 
-.generic-container-mid-p{
+.module-p{
     width: 15.6rem;
     margin: 1.5rem;
     margin-left: 0;
 }
 
-.second-middle-main-container{
+.alternative-container{
+    min-height: 22rem;
     display: flex;
     margin: 3rem;
     justify-content: center;
     align-items: center;
 }
 
-.generic-second-container-mid{
+.module-alternative{
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    
     background-color: gainsboro;
     margin: 1.5rem;
     
@@ -130,22 +134,23 @@ nav {
 }
 
 
-#title-generic-second-container-mid{
+#title-alternative-module{
     width: 7rem;
 
 }
 
-#generic-second-container-mid-p{
+#alternative-module-p{
     width: 22rem;
     margin: 1.5rem;
     margin-left: 0;
 }
 
-.img-2{
+.img-alternative{
     width: 10rem;
     height: 7rem;
     margin-top: 1rem;
     margin-right: 1rem;
+    margin-left: 2.5rem;
 }
    
 
