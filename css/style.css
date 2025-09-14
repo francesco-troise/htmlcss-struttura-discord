@@ -26,7 +26,8 @@
 
 .debug section *:not(.module-principal-container, .module-alternative) {
   background-color: white;
-  border: 1px dashed black; /* include ":not(nav)" 
+  border: 1px dashed rgb(0, 0, 0);
+                              /* include ":not(nav)" 
                                  for a transparent nav Bg */
 
                               /* include ":not(.btn-primary-container)"
@@ -40,7 +41,7 @@
 }
 
 .debug main {
-  height: 90rem;
+  height: 150rem;;
   background-color: yellowgreen;
 }
 
@@ -67,34 +68,27 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
-
-
-
-.primary-container-p{
-    margin: 0 2rem;
-    margin-top: 2rem;
-    margin-bottom: 0.7rem;
-}
-
-
-
 
 .principal-container{
     display: flex;
     justify-content: center;
     margin-left: 3rem;
     margin-right: 3rem;
-    
-
 }
+
+.btn-primary-container{
+  display: flex;
+  gap: 1rem;
+}
+
 
 .img{
     width: 10rem;
     height: 7rem;
     margin-top: 6.5rem;
     margin-right: 3rem;
-
 }
 
 .module-principal-container{
@@ -125,18 +119,13 @@ nav {
 .module-alternative{
     display: flex;
     flex-direction: column;
-    
     background-color: gainsboro;
     margin: 1.5rem;
-    
-
-    
 }
 
 
 #title-alternative-module{
     width: 7rem;
-
 }
 
 #alternative-module-p{
@@ -153,6 +142,15 @@ nav {
     margin-left: 2.5rem;
 }
    
+
+.img-3{
+  width: 450px;
+  height: 200px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;      
+}
 
 
 
